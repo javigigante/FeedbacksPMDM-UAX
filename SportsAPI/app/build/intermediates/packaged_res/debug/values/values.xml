@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports">
+
+        <item>soccer</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SportsAPI</string>
+    <style name="Base.Theme.SportsAPI" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SportsAPI" parent="Base.Theme.SportsAPI"/>
+</resources>

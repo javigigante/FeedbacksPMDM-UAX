@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.javigigante.sportsapi.app-mergeDebugResources-30:/layout/activity_standing.xml",
+        "source": "com.javigigante.sportsapi.app-main-33:/layout/activity_standing.xml"
+    },
+    {
+        "merged": "com.javigigante.sportsapi.app-mergeDebugResources-30:/layout/item_standing.xml",
+        "source": "com.javigigante.sportsapi.app-main-33:/layout/item_standing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-mergeDebugResources-30:\\layout\\item_leagues.xml",
+        "source": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-main-33:\\layout\\item_leagues.xml"
+    },
+    {
+        "merged": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-mergeDebugResources-30:\\layout\\activity_seasons.xml",
+        "source": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-main-33:\\layout\\activity_seasons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-mergeDebugResources-30:\\layout\\item_seasons.xml",
+        "source": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-main-33:\\layout\\item_seasons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Javi\\.gradle\\daemon\\8.0\\com.javigigante.sportsapi.app-main-33:\\layout\\activity_main.xml"
+    }
+]

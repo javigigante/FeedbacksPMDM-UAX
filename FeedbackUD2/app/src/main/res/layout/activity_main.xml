@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK UD2 - BANDERAS"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <RadioButton
+            android:id="@+id/radio_esp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESPAÑA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_ger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALEMANIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_ita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ITALIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_grc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRECIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_hrv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CROACIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_por"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORTUGAL"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_svn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESLOVENIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_srb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SERBIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_isl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISLANDIA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <RadioButton
+            android:id="@+id/radio_irl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IRLANDA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/flag_img"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:src="@drawable/uax"
+        app:layout_constraintBottom_toBottomOf="@+id/radio_group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radio_group"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+    </ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
